@@ -1,0 +1,109 @@
+.background {
+  margin-left: 20%;
+  margin-right: 13%;
+  background-image: url("../Image//banner1.jpg");
+  width: 72vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background: cover;
+  font-style: italic;
+  position: relative;
+}
+.boxForm {
+  height: 600px;
+  border: 1px solid #f8f9fa;
+  width: 450px;
+  position: absolute;
+  transform: translate(55%, 20%);
+  color: #868e96;
+  box-shadow: 0px 0px 5px 1px;
+  border-radius: 7px;
+  margin-left: 20%;
+}
+.boxForm h1 {
+  text-align: center;
+  font-weight: 400;
+}
+.boxForm input {
+  width: 80%;
+  margin-left: 7%;
+  padding-left: 3%;
+  border: 2px solid #ced4da;
+  border-collapse: collapse;
+  margin-top: 1%;
+}
+.boxForm button {
+  margin-top: 5%;
+  margin-left: 7%;
+  width: 85%;
+  color: #dee2e6;
+}
+.loginFooter {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.loginFooter a {
+  text-decoration: none;
+  margin-top: 4%;
+  color: blue;
+}
+.validate {
+  color: red;
+  text-align: center;
+}
+.link {
+  margin-top: 10% !important;
+  margin-left: 3% !important;
+}
+.background button {
+  background-color: #444;
+  height: 60px;
+  width: 80%;
+}
+.background input {
+  font-size: 1.5rem;
+  height: 50px;
+  margin-bottom: 10%;
+}
+.background p {
+  font-size: 1.8rem;
+}
+.select {
+  font-size: 1.5rem;
+  margin-left: 7%;
+}
+@media (max-width: 1600px) {
+  .boxForm {
+    margin-left: 14%;
+  }
+}
+@media (max-width: 1400px) {
+  .boxForm {
+    margin-left: 8%;
+  }
+}
+@media (max-width: 1200px) {
+  .boxForm {
+    margin-left: -5%;
+  }
+}
+@media (max-width: 1000px) {
+  .boxForm {
+    margin-left: -15%;
+  }
+}
+@media (max-width: 500px) {
+  .boxForm {
+    margin-left: -45%;
+  }
+  .background {
+    margin: 0;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .boxForm input {
+    margin-left: 7% !important;
+  }
+}

@@ -1,0 +1,79 @@
+nav {
+  position: fixed;
+}
+.boxSidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 20vw;
+  border-right: 1px solid var(--border);
+  text-align: left;
+  position: fixed;
+  /* margin-top: 80px; */
+}
+.title {
+  display: flex;
+  width: 100vw;
+}
+.title1 {
+  text-align: center;
+  flex: 20%;
+  border: 1px solid var(--border);
+  border-left: none;
+  border-top: none;
+  color: var(--mainColor);
+  position: fixed;
+  width: 20vw;
+}
+.title1 {
+  border-bottom: none;
+}
+
+.title2 {
+  flex: 80%;
+  border: 1px solid var(--border);
+  border-left: none;
+  border-top: none;
+  height: 71px;
+}
+.boxSidebar {
+  color: var(--textColor);
+}
+.boxSidebar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--textColor);
+  display: flex;
+}
+.boxSidebar a p:nth-child(1) {
+  margin-right: 20px;
+}
+.boxSidebar div {
+  margin-left: 10%;
+}
+.icon {
+  color: var(--mainColor);
+  width: 30px;
+}
+.boxSidebar p {
+  margin-top: 0;
+}
+.flexLogout {
+  display: flex;
+  margin-right: 50px !important;
+}
+.btnLogout {
+  font-size: 1.5rem;
+}
+.iconLogout {
+  margin-right: 10px;
+}
+.btnMenu {
+  position: absolute;
+  right: 15px;
+  padding-bottom: 10px;
+  z-index: 999;
+}
+.main {
+  margin-top: 50px;
+}

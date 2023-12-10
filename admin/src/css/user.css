@@ -1,0 +1,35 @@
+.userContent {
+  width: 100%;
+  border: 1px solid var(--border);
+  margin-top: 5%;
+  border-bottom: none !important;
+  text-align: center;
+}
+.userContent th {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.userContent th:last-child {
+  border-right: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.userContent tbody td {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  height: 50px;
+}
+.userContent tbody td:last-child {
+  border-right: none;
+}
+.btnDelete {
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.btnDelete:hover {
+  transform: scale(1.1);
+}

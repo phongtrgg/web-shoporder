@@ -1,0 +1,44 @@
+.tableP {
+  width: 100%;
+  border: 1px solid var(--border);
+}
+.boxProduct img {
+  width: 100px;
+}
+.boxProduct thead th {
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+.boxProduct thead th:last-child {
+  border-right: none;
+}
+.boxProduct td {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.boxProduct td:last-child {
+  border-right: none;
+}
+.boxProduct tbody tr:nth-child(2n + 1) {
+  background-color: rgb(238, 239, 240);
+}
+.boxProduct button {
+  padding: 10px 5px 10px 5px;
+  border: none;
+  border-radius: 3px;
+}
+.btnUpdate {
+  background-color: rgb(91, 214, 91);
+  color: white;
+}
+.btnDelete {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+}
+.boxProduct button:hover {
+  transform: scale(1.1);
+}
+.center {
+  text-align: center;
+}

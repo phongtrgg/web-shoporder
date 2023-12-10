@@ -1,0 +1,29 @@
+.title {
+  border: 1px solid var(--border);
+  display: flex;
+  width: 100% !important;
+}
+.userBoard {
+  width: 100%;
+  flex: 33%;
+  margin-left: 15px;
+  display: flex;
+  border-right: 1px solid var(--border);
+  justify-content: space-between;
+}
+.userBoard h3 {
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 25px;
+}
+.userBoard p {
+  color: var(--mainColor);
+}
+.iconBoard {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.iconPrice {
+  color: var(--mainColor);
+  font-size: 2rem;
+}
