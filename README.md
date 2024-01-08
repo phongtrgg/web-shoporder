@@ -1,6 +1,6 @@
 # PROJECT APP SHOP CLONE
 
-A website to book hotel rooms and introduce hotels
+A website for ordering commercial products and introducing products
 
 In the admin section, you can add product, images, prices, introductions...The system will update and add interfaces
 
